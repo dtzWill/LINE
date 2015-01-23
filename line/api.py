@@ -33,7 +33,7 @@ class LineAPI(object):
     """This class is a wrapper of LINE API
 
     """
-    LINE_DOMAIN = "http://gd2.line.naver.jp"
+    LINE_DOMAIN = "https://gd2.line.naver.jp"
 
     LINE_HTTP_URL          = LINE_DOMAIN + "/api/v4/TalkService.do"
     LINE_HTTP_IN_URL       = LINE_DOMAIN + "/P4"
